@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lime;
+    color: black;
+    padding: 0 50px;
+}
+header div p{
+    font-size: 14px;
+    color: #000;
+    margin-right: 10px;
+}
+header div{
+    display: flex;
+    gap: 10px;
+}
+header button{
+    border: none;
+    background-color: inherit;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.Zor{
+    background-color: lime;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+.BOY{
+    text-align: center;
+    margin: 0 auto;
+    width: 570px;
+    height: 308px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding-top: 75px;
+    border-radius: 20px;
+}
+.BOY p{
+    color: lime;
+    margin-bottom: 20px;
+}
+.BOY h1{
+    margin-bottom: 20px;
+
+}
+.section1{
+    background-image: url(./IMAGE\ \(5\).png);
+    height: 600px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+}
+.s2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.box1{
+    width: 570px;
+    height: 188px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+}
+.box1 img{
+    margin-top: -80px;
+}
+.box1 h2{
+    margin-bottom: 10px;
+}
+.box1 button{
+    width: 112px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    
+}
+.box2{
+        width: 570px;
+    height: 188px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+}
+.box2 img{
+    margin-top: -80px;
+}
+.box2 h1{
+    margin-bottom: 10px;
+}
+.box2 button{
+    width: 112px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+.bola{
+    width: 270px;
+   height: 328px;
+   text-align: center;
+   background-color: rgb(236, 236, 236);
+   border-radius: 20px;
+   margin: 40px;
+
+}
+.bola img{
+    margin: 20px 0 10px 0;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
